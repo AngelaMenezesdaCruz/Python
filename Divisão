@@ -1,0 +1,14 @@
+#Ler dois números float
+#Mostrar a divisão entre os dois números lidos
+#Não esqueça que não pode dividir por 0
+import os 
+os.system("clear")
+print("Digite o primeiro número:",end="")
+A=float(input())
+print("Digite o segundo núemro:",end="")
+B=float(input())
+
+if(B==0):
+  print("Nunca dividirás por 0")
+else:
+  print("A divisão é:",A/B)
