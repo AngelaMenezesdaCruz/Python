@@ -1,0 +1,10 @@
+#Ler dois números inteiros
+#Mostrar em ordem crescente
+print("Digite o primeiro número:",end="")
+A=int(input())
+print("Digite o segundo número:",end="")
+B=int(input())
+if(A<B):
+  print("Crescente---->",A, "e",B)
+else:
+  print("Crescente---->",B,"e",A)
