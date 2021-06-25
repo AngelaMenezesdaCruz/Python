@@ -1,0 +1,13 @@
+#Ler dois números
+#Informar se são iguais ou diferentes
+import os
+os.system("clear")
+print("Por favor digite um número:",end="")
+n1=float(input())
+print("Por favor digite outro número:",end="")
+n2=float(input())
+
+if(n1==n2):
+  print("Os números",n1,"e",n2,"são iguais")
+else:
+  print("Os números",n1,"e",n2,"são diferentes")
