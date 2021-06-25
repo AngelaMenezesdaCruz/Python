@@ -1,0 +1,10 @@
+import os
+os.system("clear")
+print("Bom dia usuário")
+print("\tDigite um número inteiro:")
+A = int(input())
+print("\tDigite outro número inteiro:")
+B = int(input())
+Resposta = A+B
+print("A resposta da soma dos números inteiros é:",Resposta)
+print("\nObrigada por escolher nossos serviços")
