@@ -1,0 +1,11 @@
+# Leia 2 notas e mostre a média do aluno 
+# Entrada: 1ª Nota e 2ª Nota
+# Processamento: Caúculo da média 
+# Saída: Média 
+print("\tOlá, bem vindo professor")
+print("\nDigite aqui a nota do 1ºBimestre:")
+B1 = float(input())
+print("\nDigite aqui a nota do 2ºBimestre:")
+B2 = float(input())
+Média = (B1+B2)/2
+print("\tA média do aluno... da turma... é:",Média)
