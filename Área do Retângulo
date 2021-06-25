@@ -1,0 +1,14 @@
+# Ler a base altura
+# Caucular a área do retângulo (base*altura)
+# Entrada: Base e Altura (float)
+# Processamento: caúculo
+# Saída: Mostrar resultado na tela
+print("Bom dia usúario")
+print("\nVamos caucular a área do retângulo usando a fórmula Base*Altura")
+print("\tDigite o valor da base do retângulo:")
+A = float(input())
+print("\tDigite o valor da altura do retângulo:")
+B = float(input())
+Processamento = A*B
+print(" A área do retângulo é:", Processamento)
+print("\nObrigada por escolher nossos serviços")
