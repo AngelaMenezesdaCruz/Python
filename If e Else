@@ -1,0 +1,11 @@
+#Ler dois números inteiros 
+#Mostrar o maior número lido
+#Não considere números iguais
+print("Bom dia, por favor digite um número:")
+n1=int(input())
+print("Por favor digite outro núemro:")
+n2=int(input())
+if(n1>n2):
+    print("\n O maior número lido é",n1)
+else:
+    print("\n O maior número lido é",n2)
