@@ -1,0 +1,11 @@
+#Ler um número inteiro
+#Informar se é par ou impar
+import os
+os.system("clear")
+print("Por favor digite um número:",end="")
+n1=int(input())
+resto=n1%2
+if(resto==0):
+  print("O número",n1, "é par")
+else:
+  print("O número",n1, "é impar")
