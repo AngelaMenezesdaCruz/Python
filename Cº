@@ -1,0 +1,8 @@
+#1) Escreva um programa em Python para ler uma temperatura em graus Fahrenheit. 
+#Calcular e escrever o valor correspondente em graus Celsius. 
+#Fórmula = (F-32)/1.8 
+print("\n\nBom dia") 
+print("Digite a temperatura em graus Fahrenheit:",end="") 
+F=float(input())
+C= (F-32)/1.8
+print("A temperatura",F,"\b°em Celsius é:",C,"\b°")
