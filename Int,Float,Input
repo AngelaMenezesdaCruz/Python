@@ -1,0 +1,63 @@
+#4) Ler o  nome
+#Ler a idade
+#Ler o dia do nascimento (dd)
+# Ler o número do mês do nascimento (mm)
+print("Bom dia, digite seu nome:")
+nome = input ()
+print(nome,"digite sua idade:")
+idade=int(input())
+print(nome,"digite o dia que você nasceu:")
+dia=int(input())
+print(nome,"digite o número correspondente ao mês que você nasceu:")
+mês=int(input())
+resultado=(idade*365)+(mês*30)+dia
+print (nome, "você já viveu", resultado, "dias.")
+
+#Leia o Peso e a Altura de uma pessoa.
+#Mostre na tela o seu IMC
+#IMC = Peso/Altura²
+#IMC = Peso/Altura²
+#Entrada: Peso e Altura
+#Processamento: X/Y²
+#Saída:IMC
+print("\nBom dia úsuario")
+print("Vamos caucular o seu IMC>")
+print("Por favor, informe seu Peso:")
+Peso =float(input())
+print("Por favor, informe sua Altura:")
+Altura =float(input())
+IMC= Peso/(Altura*Altura)
+print("O valor do seu IMC é:",IMC)
+print("Obrigada por usar nossos serviços")
+
+#2)Leia o salário de uma pessoa.
+#Mostre seu salário com AUMENTO de 30%
+#entrada - processamento  - saída
+print ("\nBom dia")
+print ("Esse programa fará um reajuste de 30% no seu salário")
+print ("Digite seu salário: ")
+salario = float(input())
+novosalario = salario * 1.30
+print ("Seu novo salário é ", novosalario)
+
+print ("\nPor favor, digite o seu nome")
+nome = input()
+print ("Por favor, digite a sua idade")
+idade = int(input())
+tempo = idade*356
+print (nome, "você já viveu" ,tempo, "dias")
+
+#5)Ler 2 números FLOAT
+# Mostrar a adição, subtração, multiplicação e divisão dos números lidos
+print("\nBom dia! Digite um numero")
+N1 = float(input())
+print("Digite outro numero")
+N2 = float(input())
+print ("Respostas:")
+print("A soma é", N1+N2)
+print("A subtração é", N1-N2)
+print ("A multiplicação é", N1*N2)
+print ("A divisão é ",N1/N2)
+print ("A parte inteira da divisão é ",N1//N2)
+print ("O resto da divisão é ",N1%N2)
+print("A potência é:",N1**N2)
