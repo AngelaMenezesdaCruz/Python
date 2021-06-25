@@ -1,0 +1,10 @@
+# Leia um número inteiro e mostre seu antecessor
+# Entrada: Número
+# Processamento: Processo pra descobrir o antecessor
+# Saída: Antecessor
+print("\tBem vindo ao nosso sistema de caúculos")
+print("\n>Caucular o antecessor de determinado número")
+print("\nDigite a seguir o número que deseja descobrir seu antecessor:")
+A=int(input())
+Processamento = A-1
+print("\nO antecessor do número",A,"é igual à:\n",Processamento)
